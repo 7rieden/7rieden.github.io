@@ -3,7 +3,7 @@ title:               7rieden
 tagline:             
 description:         <b>To be Pro</b>
 url:                 https://7rieden.github.io
-baseurl:             ''
+baseurl:             
 paginate:            1
 permalink:           pretty
 
@@ -20,7 +20,7 @@ plugins:
 pagination:
     enabled: true
     per_page: 1
-    limit: 1
+    limit: 2
     sort_field: "date"
     sort_reverse: true
 
