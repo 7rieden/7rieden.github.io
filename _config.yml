@@ -1,7 +1,7 @@
 # Setup
 title:               7rieden
 tagline:             
-description:         <b>'To be Pro'</b>
+description:         <b>To be Pro</b>
 url:                 http://7rieden.github.io
 baseurl:             ''
 paginate:            1
@@ -20,7 +20,7 @@ plugins:
 pagination:
     enabled: true
     per_page: 1
-    limit: 0
+    limit: 1
     sort_field: "date"
     sort_reverse: true
 
