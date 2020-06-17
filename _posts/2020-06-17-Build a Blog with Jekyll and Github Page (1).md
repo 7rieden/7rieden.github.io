@@ -21,7 +21,7 @@ Option : [Medium](https://medium.com/)  /  [Velog](https://velog.io/)  /   [Nave
 
 Download Ruby+Devkit and install on [Ruby Download](https://rubyinstaller.org/downloads/)
 
-![Ruby site](/img/Install_Ruby.png "Ruby Website")
+![Ruby site](img/Install_Ruby.png "Ruby Website")
 
 <br>
 ## <b>Step 2: Installing Jekyll in Windows</b>
