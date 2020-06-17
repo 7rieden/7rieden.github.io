@@ -27,8 +27,7 @@
  * Reverse layout
  * Themes
  */
-
-
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bree+Serif&family=Fira+Sans:wght@300;400;500;600;700;800;900&family=Great+Vibes&family=Merriweather:ital,wght@0,400;0,700;0,900;1,700;1,900&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@300;400;500;700;900&display=swap');
 /*
  * Body resets
  *
@@ -48,7 +47,7 @@ body {
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -80,7 +79,8 @@ a:focus {
 }
 
 /* Headings */
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
+  font-family: 'Fira Sans', sans-serif;
   margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;
@@ -88,7 +88,9 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 h1 {
+  font-family: 'Abril Fatface', cursive;
   font-size: 2rem;
+  letter-spacing: 5px;
 }
 h2 {
   margin-top: 1rem;
@@ -150,7 +152,7 @@ abbr[title] {
 /* Code */
 code,
 pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-family: "Fira Code",Menlo, Monaco, "Courier New", monospace;
 }
 code {
   padding: .25em .5em;
@@ -190,7 +192,7 @@ pre code {
 
 /* Gist via GitHub Pages */
 .gist .gist-file {
-  font-family: Menlo, Monaco, "Courier New", monospace !important;
+  font-family:"Fira Code", Menlo, Monaco, "Courier New", monospace !important;
 }
 .gist .markdown-body {
   padding: 15px;
@@ -389,7 +391,7 @@ tbody tr:nth-child(odd) th {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   color: #ccc;
   text-align: center;
 }
@@ -429,10 +431,3 @@ a.pagination-item:hover {
   }
 }
 
-/* Category */
-.sidebar-nav-item {
-
-}
-.content-ul{
-  margin-left: 20px;
-}
