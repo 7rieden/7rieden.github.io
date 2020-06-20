@@ -18,7 +18,6 @@ That's why this word is my favorite word while I lived in Germany.
 
 And European write down the number [7](https://www.google.com/search?bih=1618&biw=1591&hl=en&sxsrf=ALeKk0236XTPt2BDieuc2T3_ymuzu0mr6Q%3A1592380422861&ei=BszpXsiONKb6qwGu3p7YAw&q=european+7+handwriting&oq=european+7+handwriting&gs_lcp=CgZwc3ktYWIQAzIECCMQJzoECAAQRzoHCCEQChCgAVDKvAVYssMGYOfIBmgAcAF4AIABaIgBvgGSAQMxLjGYAQCgAQGqAQdnd3Mtd2l6&sclient=psy-ab&ved=0ahUKEwjIqc6rr4jqAhUm_SoKHS6vBzsQ4dUDCAw&uact=5) like Fender <span style="font-family: 'Great Vibes', cursive;">[F](https://en.wikipedia.org/wiki/Fender_Musical_Instruments_Corporation)</span>.
 
-So, my ID is <b>7rieden</b> 😊
 
 <br>
 
