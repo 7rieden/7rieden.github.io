@@ -2,7 +2,7 @@
 layout: post
 title: Variables & Constants
 date: 2020-06-17
-permalink: /C_lang/C
+permalink: /C_Lang/C
 tags: [C],[Syntax]
 comments: true
 ---
@@ -13,8 +13,8 @@ comments: true
 int main(){
     int x;
     x = 10;
-    printf("%d",x);
-    printf("Memory size of variable x is %d",sizeof(x));
+    printf("%d", x);
+    printf("Memory size of variable x is %d", sizeof(x));
 
     return 0;
 }
@@ -22,8 +22,6 @@ int main(){
 <br>
 
 ## Learning Data Types (int,float,double)
-<br>
-
 ```c
 #include <stdio.h>
 
@@ -49,18 +47,18 @@ int main() {
 int main(){
     int x = INT_MAX;
     print("Integer x's Max is %d.\n", x);
-    print("x + 1 = %d\n",x +1 )
+    print("x + 1 = %d\n", x + 1);
 
     return 0;
 }
 ```
 <br>
-`Interger x's Max is 2147483647.
-x + 1 = -2147483648`
+`Interger x's Max is 2147483647.`
+`x + 1 = -2147483648`
 
 <br>
-Artithmetic operations
 
+## Artithmetic operations
 ```c
 #include <stdio.h>
 
@@ -70,11 +68,11 @@ int main(){
 
     printf("a = %d\n", a);
     printf("b = %d\n", b);
-    printf("a + b = %d, a+b);
-    printf("a - b = %d, a-b);
-    printf("a * b = %d, a*b);
-    printf("a / b = %d, a/b);
-    printf("a % b = %d, a%b);
+    printf("a + b = %d", a + b);
+    printf("a - b = %d", a - b);
+    printf("a * b = %d", a * b);
+    printf("a / b = %d", a / b);
+    printf("a % b = %d", a % b);
     
     return 0;
 }
