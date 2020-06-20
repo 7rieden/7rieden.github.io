@@ -3,31 +3,31 @@ layout: post
 title: Data Type 
 date: 2020-06-17
 permalink: /C_Lang/C
-tags: [C],[Syntax]
+tags: [C]
 comments: true
 ---
 ## Data Type
 #### 1.Primitive
-    -char
-    -int
-    -float
-    -double
-    -void
+ -char
+ -int
+ -float
+ -double
+ -void
 #### 2.Derivied
-    -Array
-    -Pointer
-    -Function
+ -Array
+ -Pointer
+ -Function
 #### 3.User defined
-    -enum
-    -Structure
-    -Union
+ -enum
+ -Structure
+ -Union
 <br>
 
 ## Variables Data Types
-    -Integer
-    -Character
-    -Float
-    -Double
+ -Integer
+ -Character
+ -Float
+ -Double
 
 <br>
 

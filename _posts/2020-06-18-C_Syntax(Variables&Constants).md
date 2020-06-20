@@ -3,7 +3,7 @@ layout: post
 title: Variables & Constants
 date: 2020-06-17
 permalink: /C_Lang/C
-tags: [C],[Syntax]
+tags: [C]
 comments: true
 ---
 ## sizeof
