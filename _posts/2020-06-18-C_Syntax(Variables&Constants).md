@@ -20,6 +20,7 @@ int main(){
 }
 ```
 <br>
+---
 
 ## Learning Data Types (int,float,double)
 ```c
@@ -38,6 +39,7 @@ int main() {
 ```
 
 <br>
+---
 
 ## Overflow with <limits.h>
 ```c
@@ -57,6 +59,7 @@ int main(){
 `x + 1 = -2147483648`
 
 <br>
+---
 
 ## Artithmetic operations
 ```c

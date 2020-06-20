@@ -8,28 +8,17 @@ comments: true
 ---
 ## Data Type
 #### 1.Primitive
- -char
- -int
- -float
- -double
- -void
+ `char`/`int`/`float`/`double`/`void`
 #### 2.Derivied
- -Array
- -Pointer
- -Function
+ `Array`/`Pointer`/`Function`
 #### 3.User defined
- -enum
- -Structure
- -Union
+ `Enum`/`Structure`/`Union`
 <br>
 
 ## Variables Data Types
- -Integer
- -Character
- -Float
- -Double
+ `Integer`/`Character`/`Float`/`Double`
 
-<br>
+---
 
 ## Calculating annual salary with <b>double</b>
 
@@ -47,7 +36,7 @@ int main(){
 
 `#define MONTHS 12` is <b>Constants</b>
 
-<br>
+---
 
 ## ASCII
 
@@ -65,6 +54,7 @@ int main(){
     return 0;
 }
 ```
+---
 
 ## Printing with Decimal,Octal,Hexadecimal Numbers
 ```c
@@ -74,7 +64,7 @@ int main(){
     int x = 100;
     printf("Decimal Number : %d\n", x);
     printf("Octal Number: %o\n", x);
-    printf("Hexadecimal Number: %x, x);
+    printf("Hexadecimal Number: %x", x);
 
     return 0;
 }
