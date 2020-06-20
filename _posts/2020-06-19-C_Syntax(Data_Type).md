@@ -6,13 +6,14 @@ permalink: /C_Lang/C
 tags: [C]
 comments: true
 ---
-## Data Type
-#### 1.Primitive
+#### 1. Primitive
  `char`/`int`/`float`/`double`/`void`
-#### 2.Derivied
+#### 2. Derivied
  `Array`/`Pointer`/`Function`
-#### 3.User defined
+#### 3. User defined
  `Enum`/`Structure`/`Union`
+
+<br>
 <br>
 
 ## Variables Data Types

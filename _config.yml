@@ -18,10 +18,11 @@ author:
 plugins:
   - jekyll-paginate
 
+# Paginate Config
 pagination:
     enabled: true
     per_page: 1
-    limit: 2
+    limit: 5
     sort_field: "date"
     sort_reverse: true
 
