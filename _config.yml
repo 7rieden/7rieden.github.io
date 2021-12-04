@@ -1,42 +1,95 @@
-# Setup
-title:               7rieden
-tagline:             
-description:         Frieden means Peace in Germeny. <br> This word is my favorite word. <br> And European write down the number 7 like Fender F.<br><br> 7rieden
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing these this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-url:                 https://7rieden.github.io
-baseurl:             
-paginate:            1
-permalink:           pretty
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
-# About/contact
-author:
-  name:              Daeyoung Yoon
-  url:               https://www.facebook.com/7rieden
-  email:             7riedeng@gmail.com
+title: 7rieden's devlog
+email: 7rieden@gmail.com
+author: 7rieden
+description: > # this means to ignore newlines until "baseurl:"
+  Frieden means Peace in German.
 
-# Gems
-plugins:
-  - jekyll-paginate
+# Add your baseurl here (your repository) but DO NOT CHANGE THE LINE NUMBER without editing .circleci/circle_urls.sh
+baseurl: "/7rieden" # the subpath of your site, e.g. /blog
 
-# Paginate Config
-pagination:
-    enabled: true
-    per_page: 1
-    limit: 5
-    sort_field: "date"
-    sort_reverse: true
+# This is mostly for testing
+url: "https://7rieden.github.io" # the base hostname & protocol for your site
 
+# Social (First three Required)
+repo: "https://github.com/7rieden/7rieden.github.io/"
+github_user: "7rieden"
+github_repo: "7rieden.github.io"
+github_branch: "master"
 
-#Disqus
-disqus:
-  shortname: 7rieden-github-io
+# Optional
+twitter: 7rieden
+linkedin: 7rieden
+dockerhub: 7rieden
 
-# Custom vars
-version:             1.1.0
-google_analytics_id: UA-168692799-1 #UA-XXXX-Y
+# Should there be feedback buttons at the bottom of pages?
+feedback: true
 
-highlighter: rouge
+# Link to a privacy policy in footer, uncomment and define if wanted
+# privacy: https://domain.com/privacy
 
-category_dir: category/
-tag_dir: tag/
+# google-analytics: UA-XXXXXXXXXX
+# Image and (square) dimension for logo (don't start with /)
+# If commented, will use material hat theme
+# logo: "assets/img/logo/SRCC-square-red.png"
+logo_pixels: 34
+color: "97BFB4"
+# color: "#8c1515" # primary color for header, buttons
+#"#30638e"
 
+# Build settings
+markdown: kramdown
+
+# If you add tags to pages, define this variable to link them to some external search
+# If you want to link to tags locally on the site, leave this commented out
+# tag_search_endpoint: https://ask.cyberinfrastructure.org/search?q=
+tag_color: primary # danger, success, warning, primary, info, secondary
+
+accentColor: red # purple, green, etc.
+themeColor: red # purple, green, blue, orange, purple, grey
+fixedNav: 'true' # true or false
+
+permalink: /:year/:title/
+markdown: kramdown
+exclude: [_site, CHANGELOG.md, LICENSE, README.md, vendor]
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path
+
+# Defaults
+defaults:
+  - scope:
+      path: "_docs"
+      type: "docs"
+    values:
+      layout: page
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: "posts"
+      type: "posts"
+    values:
+      layout: "post"
